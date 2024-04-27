@@ -17,7 +17,7 @@
       console.log('F F');
   }
 
- // Switch Statements//
+ // Switch Statements
    var month = 'Aprial';
    switch(month){
        case 'May':
@@ -51,7 +51,7 @@
             break;
    }
 
- // This is regular way//
+ // This is regular way
 
   var x = prompt("Choose any number");
   switch(true){
