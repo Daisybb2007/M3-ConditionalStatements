@@ -4,13 +4,16 @@
   console.log(x < 25);
   console.log(x > 50);
 
-  if (expression1 && expression2) {
+  if (expression1 && expression2){
       console.log('T T');
-  } else if (expression1) {
+  } 
+  else if (expression1) {
       console.log('T F');
-  } else if (expression2) {
+  } 
+  else if (expression2) {
       console.log('F T');
-  }else {
+  }
+  else {
       console.log('F F');
   }
 
@@ -48,7 +51,7 @@
             break;
    }
 
- //This is regular way
+ // This is regular way
 
   var x = prompt("Choose any number");
   switch(true){
@@ -65,7 +68,7 @@
           console.log("False❌ False❌")
   }
 
-//This is the shorted way:
+// This is the shorted way:
 var mark = prompt ("Enter your mark");
 switch (true){
     case mark >= 40:
